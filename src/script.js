@@ -16,7 +16,7 @@ function generatePoem(event) {
   let instructionsInput = document.querySelector("#user-instructions");
   let apiKey = "257842e3dd87eab0cfobda43203bt81d";
   let context =
-    "You are a poetic and romantic poem expert. Write exactly 6 lines of a short poem with proper punctuation. Format the poem in basic HTML by separating each line with <br />. Do not include a title, do not add explanations, do not print the word 'html', and do not use HTML quotation marks. Respond only with the poem, clean and direct";
+    "You are a poetic and romantic poem expert. Write exactly 4 lines of a short poem with proper punctuation. Format the poem in basic HTML by separating each line with <br />. Do not include a title, do not add explanations, do not print the word 'html', and do not use HTML quotation marks. Respond only with the poem, clean and direct";
   let prompt = `User instructions: Generate a Filipino poem about ${instructionsInput.value}`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
