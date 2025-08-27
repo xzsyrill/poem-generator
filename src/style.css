@@ -90,6 +90,13 @@ form {
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
+.poem hidden {
+  font-family: "Poem1";
+  line-height: 2.5rem;
+  font-size: 28px;
+  padding: 20px;
+}
+
 .generating {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
