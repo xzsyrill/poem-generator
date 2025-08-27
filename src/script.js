@@ -22,7 +22,7 @@ function generatePoem(event) {
 
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
-  poemElement.innerHTML = `<div class="generating">⏳ <i>Lumilikha ng tula tungkol sa ${instructionsInput.value}<i/></div>`;
+  poemElement.innerHTML = `<div class="generating">⏳ <i>Lumilikha ng tula tungkol sa '${instructionsInput.value}'<i/></div>`;
 
   axios.get(apiUrl).then(displayPoem);
 }
